@@ -1,4 +1,7 @@
 window.addEventListener("DOMContentLoaded", function(){
-    document.querySelector("p").innerHTML = <p>Pour accéder à Google cliquez<a href="https://google.com/">ici</a><p>
+    
+    
+    let p = document.querySelector("p")
+    p.innerHTML = '<p>Pour accéder à Google cliquez <a href="https://google.com/">ici</a><p>'
     
 });

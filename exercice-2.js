@@ -8,8 +8,8 @@ window.addEventListener("DOMContentLoaded", function(){
     let el3 = document.querySelector("body :nth-child(3)");
 
 
-    el2.appendChild(newh2).appendChild(newH2Text)
-    el3.appendChild(newP).appendChild(newPText)
+    el2.appendChild(newh2).appendChild(newH2Text);
+    el3.appendChild(newP).appendChild(newPText);
    
 
     

@@ -2,7 +2,7 @@ window.addEventListener("DOMContentLoaded", function(){
     // votre code ici
     let pokemons = ["Pikachu", "Salameche", "Bulbizarre", "Carapuce"];
     let newUl = document.createElement("ul");
-    let el = document.querySelector("body").innerHTML = newUl;
+    let el = document.querySelector("body").appendChild(newUl);
 
 
     for (let pok of pokemons) {
@@ -11,8 +11,7 @@ window.addEventListener("DOMContentLoaded", function(){
         let newLi = document.createElement("li");
 
         let newLiText = document.createTextNode(`${pok}`);
-        el.innerHTML = "newLi"
-        
+        let el2 = el.appendChild(newLi).appendChild(newLiText)
                                 console.log(newLiText)
 
      }
